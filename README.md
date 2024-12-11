@@ -70,11 +70,11 @@ int main() {
 ## Time Complexity Analysis
 ### **1-Insertion:**
 - **Best Case**
---Insertion into a non-full leaf node: **O(1)**
+    Insertion into a non-full leaf node: **O(1)**.
 -** Worst Case**
---Requires traversing from the root to a leaf: **O(log n)**.
---May involve splitting nodes along the path: **O(log n)**.
+      Requires traversing from the root to a leaf: **O(log n)**.
+      May involve splitting nodes along the path: **O(log n)**.
 
 ### **2-Search**
---Search involves traversing from the root to a leaf node, comparing keys at each level.
-Time Complexity: O(log n).
+    Search involves traversing from the root to a leaf node, comparing keys at each level.
+    Time Complexity: O(log n).
